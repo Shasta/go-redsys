@@ -23,6 +23,7 @@ type Request struct {
 	CallbackURL        string        `xml:"DS_MERCHANT_MERCHANTURL,omitempty" json:"DS_MERCHANT_MERCHANTURL,omitempty"`
 	RedirectSuccessURL string        `xml:"DS_MERCHANT_URLOK,omitempty" json:"DS_MERCHANT_URLOK,omitempty"`
 	RedirectFailureURL string        `xml:"DS_MERCHANT_URLKO,omitempty" json:"DS_MERCHANT_URLKO,omitempty"`
+	PayMethods         string        `xml:"DS_MERCHANT_PAYMETHODS" json:"DS_MERCHANT_PAYMETHODS,omitempty"`
 }
 
 type Response struct {
