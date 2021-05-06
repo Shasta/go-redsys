@@ -1,3 +1,3 @@
-module github.com/Dirbaio/go-redsys
+module github.com/Shasta/go-redsys
 
 go 1.12
